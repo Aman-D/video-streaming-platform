@@ -9,7 +9,7 @@
     "format": "prettier \"{apps,libs}/**/*.{ts,tsx,json,js}\" --ignore-path .gitignore",
     "format:check": "pnpm format --check",
     "format:write": "pnpm format --write",
-    "validate": "pnpm run lint && pnpm run format:check",
+    "validate": "pnpm run format:check && pnpm run lint ",
     "prepare": "husky install"
   },
   "keywords": [],
@@ -22,6 +22,7 @@
     "@nx/next": "^19.8.2",
     "eslint": "~8.57.0",
     "husky": "^8.0.0",
+    "lint-staged": "^15.2.10",
     "nx": "19.8.2",
     "prettier": "^3.0.0"
   }
