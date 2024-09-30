@@ -4,3 +4,7 @@ dist
 .env
 .next
 .nx
+
+
+.nx/cache
+.nx/workspace-data
